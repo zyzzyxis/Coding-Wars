@@ -9,16 +9,32 @@ const tacos = [taco, taco1, taco2]
 // write a function that takes an tacoOBJ and a id
 // and returns a new object with name changed to "changed"
 
+const tacoOBJ = 
+
+
 
 
 // write a function that takes an tacoOBJ and return some
 // formatted html (will be a string technically)
+    const formatTacoHTML = tacos.map((tacoOBJ) => {
+      const {id, name, price, about} = tacoOBJ
+      return `
+        <div>
+          <h1>ID:${id}. Dish:${name}. Cost:${price}. About:${about}</h1> 
+        </div>
+      `
+    })
+    console.log(formatTacoHTML)
 
+    console.log('-----------------')
 
 
 // write a function that takes an tacoOBJ and return formatted price with
 // .00 
 
+let priceFormat = 
+
+console.log(taco1)
 
 
 // create a new array where all of the prices is formatted with .00
@@ -53,7 +69,11 @@ const tacos = [taco, taco1, taco2]
 // READ (array of obj to array of html) 
 
 // Update (update a taco) 
+// let updatedTaco = taco.map((taco) => {
+//   return {...taco, name:'DIFFERENT TACO'}
+// })
 
+// console.log(updatedTaco)
 // Remove (delete a taco) 
 
 // Create (add a taco) 
