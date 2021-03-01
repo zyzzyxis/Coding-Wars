@@ -7,19 +7,16 @@ const tacos = [taco, taco1, taco2]
 
 
 // write a function that takes an tacoOBJ and a id
-
 // and returns a new object with name changed to "changed"
 
 
 
 // write a function that takes an tacoOBJ and return some
-
 // formatted html (will be a string technically)
 
 
 
 // write a function that takes an tacoOBJ and return formatted price with
-
 // .00 
 
 
@@ -29,7 +26,6 @@ const tacos = [taco, taco1, taco2]
 
 
 // write a function that takes an array and logs each item in the array
-
 // hint forEach
 
 
@@ -43,16 +39,13 @@ const tacos = [taco, taco1, taco2]
 
 
 // return a new array with a 'about' key where it is a combo of
-
 // name price and about
 
 
 
 
 ///CRUD
-
 // don't change tacos array or change objects
-
 // can hard code data (Don't need to get it from the users)
 
 
