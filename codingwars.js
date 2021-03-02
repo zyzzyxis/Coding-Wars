@@ -86,7 +86,7 @@ console.log('---------------------')
 let obj = tacos.find(o => o.id === 1 )
 console.log(obj);
 
-// return a new array with all prices greater than 19
+// todo return a new array with all prices greater than 19
 //this will have an if statement
 
 
@@ -94,8 +94,8 @@ console.log(obj);
 
 
 
-// return a new array with a 'about' key where it is a combo of name price and about
-
+// todo return a new array with a 'about' key where it is a combo of name price and about
+// (I didn't finish this one. )
 
 
 
@@ -105,7 +105,7 @@ console.log(obj);
 ///CRUD
 // don't change tacos array or change objects
 // can hard code data (Don't need to get it from the users)
-// READ (array of obj to array of html) 
+//todo  READ (array of obj to array of html) 
 
 //// Update (update a taco) 
 console.log('---------------------')
@@ -113,7 +113,11 @@ let x = {...taco1, name:'it is new now'}
 console.log(x)
 console.log(taco1)
 
-// Remove (delete a taco) 
+// todo Remove (delete a taco) 
+// const remove = (gone) => {
+//   return 
+// }
+// console.log(remove(taco1))
 
 // Create (add a taco) 
 console.log('---------------------')
